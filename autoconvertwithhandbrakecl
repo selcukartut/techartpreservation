@@ -1,6 +1,8 @@
 This batch scripts runs on Windows 10. Basically, it looks for all the files with a specific extension under the current folder structure and calls Handbrake Command Line to convert video files to mp4. After the conversion, it also asks for a confirmation on deleting the original.
 you would need to download Handbrake Command Line https://handbrake.fr/downloads2.php and place it under "C:\Program Files\HandBrake\"
 
+- change *.DAT for corresponding video file format
+
 @echo off
 cd /d %~dp0
 
